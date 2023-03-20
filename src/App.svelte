@@ -12,7 +12,7 @@
 	}
 </script>
 
-<main class="bg-body text-white font-Montserrat pb-12 scroll-behavior: smooth; overflow-scroll">
+<main class="bg-body text-white pb-12 scroll-behavior: smooth;">
   <!-- Our Navbar and Hero Section --> 
   <header class="py-6">
   <!-- Nav -->
@@ -53,14 +53,14 @@
   <!-- Our About Section --> 
   <section class="bg-gray-800 pattern py-20" id="about">   
     <div class="max-w-5xl px-6 mx-auto text-center">
-      <h2 class="text-2xl font-semibold text-white">About Me</h2>
-      <p class="text-gray-500 mt-4">
+      <h2 class="text-xl font-black text-emerald-300 md:text-left uppercase">About Me</h2>
+      <h6 class="font-medium mt-4 md:text-left">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
         nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim
         cursus lorem ac. Orci maecenas praesent arcu eget orci est orci
         nullam. Leo purus est pellentesque massa at tortor, est. Aliquet
         pulvinar a mattis sagittis. Suspendisse porta id elementum, massa.
-      </p>
+      </h6>
     </div>
   </section>
   <Projects />
