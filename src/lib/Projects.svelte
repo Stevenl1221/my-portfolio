@@ -35,39 +35,43 @@
                 </div>
             {/each}
         </div> -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-24 mt-6">
-            <div class="img-wrapper relative overflow-hidden">
-                <img class="h-full w-full object-cover rounded" src={projects[0].image} alt="" />
-            </div>
-            <div>
-                <h5 class="text-xl font-extrabold mb-4 uppercase">Workout Web App</h5>
-                <h6 class="font-semibold">A social workout web app that allows users to create, share, like, and comment on each others’ workout templates and profiles. Users can find new workout exercises by searching or sorting by popularity and muscle group.</h6>
-                <div class="mt-2">
-                    <span class="badge">Express.js</span>
-                    <span class="badge">MongoDB</span>
-                    <span class="badge">Axios</span>
-                    <span class="badge">Git</span>
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-24 mt-6">
+            <div class="rounded flex h-160 w-full shadow-lg gap-32">
+                <div class="img-wrapper">
+                    <img class="h-auto w-212 object-cover rounded" src={projects[0].image} alt="" />
                 </div>
-                <div class="flex justify-center gap-4 mt-6 text-xl">
-                    <a target="_blank" href="https://github.com/Stevenl1221/WorkoutApplication" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-            <div>
-                <h5 class="text-xl font-extrabold mb-4 uppercase">AS Software</h5>
-                <h6 class="font-semibold">A website to display products and testimonials of a leading provider of ultrasound reporting and image management. Customers can contact and find a partner at AS Software</h6>
-                <div class="mt-2">
-                    <span class="badge">HTML</span>
-                    <span class="badge">CSS</span>
-                    <span class="badge">JavaScript</span>
-                    <span class="badge">Bootstrap</span>
-                </div>
-                <div class="flex justify-center gap-4 mt-6 text-xl">
-                    <a target="_blank" href="https://github.com/Stevenl1221/assoftwarre" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="https://stevenl1221.github.io/assoftwarre/index.html" rel="noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
+                <div class="flex-col justify-center">
+                    <h5 class="text-xl font-extrabold mb-4 uppercase">Workout Web App</h5>
+                    <h6 class="font-semibold">A social workout web app that allows users to create, share, like, and comment on each others’ workout templates and profiles. Users can find new workout exercises by searching or sorting by popularity and muscle group.</h6>
+                    <div class="mt-2">
+                        <span class="badge">Express.js</span>
+                        <span class="badge">MongoDB</span>
+                        <span class="badge">Axios</span>
+                        <span class="badge">Git</span>
+                    </div>
+                    <div class="flex justify-center gap-4 mt-6 text-xl">
+                        <a class="text-white font-extrabold" target="_blank" href="https://github.com/Stevenl1221/WorkoutApplication" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="img-wrapper relative overflow-hidden">
-                <img class="h-full w-full object-cover rounded" src={projects[1].image} alt="" />
+            <div class="rounded flex flex-row-reverse h-160 w-full shadow-lg gap-32">
+                <div class="img-wrapper">
+                    <img class="h-auto w-212 object-cover rounded" src={projects[1].image} alt="" />
+                </div>
+                <div class="flex-col justify-center">
+                    <h5 class="text-xl font-extrabold mb-4 uppercase">AS Software</h5>
+                    <h6 class="font-semibold">A website to display products and testimonials of a leading provider of ultrasound reporting and image management. Customers can contact and find a partner at AS Software</h6>
+                    <div class="mt-2">
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">Bootstrap</span>
+                    </div>
+                    <div class="flex justify-center gap-4 mt-6 text-xl">
+                        <a class="font-extrabold" target="_blank" href="https://github.com/Stevenl1221/assoftwarre" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
+                        <a class="font-extrabold" target="_blank" href="https://stevenl1221.github.io/assoftwarre/index.html" rel="noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
+                    </div>
+                </div>
             </div>
             <div class="flex w-full relative justify-center h-4/5">
                 <img class="h-3/5 rounded" src={projects[2].image} alt="" />
