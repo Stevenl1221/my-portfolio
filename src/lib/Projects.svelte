@@ -1,31 +1,28 @@
 <script>
+    import WorkoutImg from "../assets/workout.png";
+    import ASSoftwareImg from "../assets/assoftware.png";
+    import WeatherAppImg from "../assets/weatherapp.png";
     const projects = [
         {
             name: "Project 1",
-            image: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+            image: WorkoutImg
         },
         {
             name: "Project 2",
-            image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            image: ASSoftwareImg
         },
         {
             name: "Project 3",
-            image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80"
+            image: WeatherAppImg
         }
     ];
 </script>
 
 <div class="py-10 container mt-40 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full" id="projects">
-    <section class="w-full text-center">
-        <h2 id="work" class="secondary-title md:text-left text-4xl font-bold mb-6">Portfolio</h2>
-        <p class="section-paragraph md:text-left text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
-            nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim
-            cursus lorem ac. Orci maecenas praesent arcu eget orci est orci
-            nullam. Leo purus est pellentesque massa at tortor, est. Aliquet
-            pulvinar a mattis sagittis. Suspendisse porta id elementum, massa.
-        </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+    <section class="w-full h-full text-center">
+        <h2 id="work" class="md:text-left text-xl font-black mb-6 uppercase text-emerald-300">Portfolio</h2>
+        <h3 class="md:text-left text-4xl mb-10 font-bold">some projects i have worked on !</h3>
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {#each projects as project}
                 <div class="img-wrapper relative overflow-hidden">
                     <img class="h-full w-full object-cover rounded" src={project.image}
@@ -37,6 +34,56 @@
                     </div>
                 </div>
             {/each}
+        </div> -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-24 mt-6">
+            <div class="img-wrapper relative overflow-hidden">
+                <img class="h-full w-full object-cover rounded" src={projects[0].image} alt="" />
+            </div>
+            <div>
+                <h5 class="text-xl font-extrabold mb-4 uppercase">Workout Web App</h5>
+                <h6 class="font-semibold">A social workout web app that allows users to create, share, like, and comment on each others’ workout templates and profiles. Users can find new workout exercises by searching or sorting by popularity and muscle group.</h6>
+                <div class="mt-2">
+                    <span class="badge">Express.js</span>
+                    <span class="badge">MongoDB</span>
+                    <span class="badge">Axios</span>
+                    <span class="badge">Git</span>
+                </div>
+                <div class="flex justify-center gap-4 mt-6 text-xl">
+                    <a target="_blank" href="https://github.com/Stevenl1221/WorkoutApplication" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div>
+                <h5 class="text-xl font-extrabold mb-4 uppercase">AS Software</h5>
+                <h6 class="font-semibold">A website to display products and testimonials of a leading provider of ultrasound reporting and image management. Customers can contact and find a partner at AS Software</h6>
+                <div class="mt-2">
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">Bootstrap</span>
+                </div>
+                <div class="flex justify-center gap-4 mt-6 text-xl">
+                    <a target="_blank" href="https://github.com/Stevenl1221/assoftwarre" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="https://stevenl1221.github.io/assoftwarre/index.html" rel="noreferrer">Live Demo <i class="fa-solid fa-arrow-up-right-from-square link-icon"></i></a>
+                </div>
+            </div>
+            <div class="img-wrapper relative overflow-hidden">
+                <img class="h-full w-full object-cover rounded" src={projects[1].image} alt="" />
+            </div>
+            <div class="flex w-full relative justify-center h-4/5">
+                <img class="h-3/5 rounded" src={projects[2].image} alt="" />
+            </div>
+            <div>
+                <h5 class="text-xl font-extrabold mb-4 uppercase">Weather App</h5>
+                <h6 class="font-semibold">A mobile app for both IOS and Android to display weather data including forecasts and nowcasts. The weather app displays current weather, hourly weather, and daily weather data with minimalistic UI. It also displays precipitation, wind speed, and humidity. Unique icons for each type of weather, day, and night. </h6>
+                <div class="mt-2">
+                    <span class="badge">Flutter</span>
+                    <span class="badge">GetX</span>
+                    <span class="badge">OpenWeatherAPI</span>
+                </div>
+                <div class="flex justify-center gap-4 mt-6 text-xl">
+                    <a target="_blank" href="https://github.com/Stevenl1221/WeatherApp" rel="noreferrer">Code <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
         </div>
     </section>
 </div>
