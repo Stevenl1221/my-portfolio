@@ -54,12 +54,9 @@
   <section class="bg-gray-800 pattern py-20" id="about">   
     <div class="max-w-5xl px-6 mx-auto text-center">
       <h2 class="text-xl font-black text-emerald-300 md:text-left uppercase">About Me</h2>
+      <h3 class="md:text-left text-4xl mb-10 font-bold">a motivated software engineer in the new york area ! </h3>
       <h6 class="font-medium mt-4 md:text-left">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper
-        nulla nunc quis molestie volutpat elementum at. Ultrices ipsum, enim
-        cursus lorem ac. Orci maecenas praesent arcu eget orci est orci
-        nullam. Leo purus est pellentesque massa at tortor, est. Aliquet
-        pulvinar a mattis sagittis. Suspendisse porta id elementum, massa.
+        I'm a student graduating in May 2025 with four internships under my belt! Throughout the years I have acquired many skills with many more to come. These skills range from soft skills such as communication, leadership, adaptability, and self-motivation to technical skills including OOP, React, Django, MongoDB, MySQL and many more! My expertise lies in engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I excel in problem solving, adaptability, and leadership. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding products.
       </h6>
     </div>
   </section>
